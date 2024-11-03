@@ -1,0 +1,560 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "musician"
+	group: "3D400563BB150F5E"
+	icon: {
+		Count: 1
+		id: "immersive_melodies:trumpet"
+		tag: { }
+	}
+	id: "2580CE5054ED4244"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7Unlock the hidden melodies within and let your soul sing.&r"
+				""
+				"&9Whether it's the enchanting notes of a flute, the deep resonance of a didgeridoo,&r"
+				"&9or the triumphant blast of a trumpet, every instrument holds a story.&r"
+				""
+				"&dFeel the elegance of the piano keys, the bright touch of the triangle,&r"
+				"&dand the ancient tunes of the lute and bagpipe.&r"
+				""
+				"&eEmbrace the music, and let it guide you on an unforgettable journey.&r"
+			]
+			icon: "minecraft:paper"
+			id: "235982E6AA55CFFD"
+			shape: "circle"
+			size: 4.0d
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "0A0233B41CEA3CB3"
+				title: "The musician in you"
+				type: "checkmark"
+			}]
+			title: "&6&lThe Musician in You&r"
+			x: -4.330952380952375d
+			y: -3.011904761904759d
+		}
+		{
+			dependencies: ["235982E6AA55CFFD"]
+			description: [
+				"&7A robust wind instrument, famous for its unique and powerful sound.&r"
+				""
+				"&6Its melodies can evoke images of green hills and historic battles.&r"
+				""
+				"&eUsed in ceremonies and celebrations, bringing joy and community spirit.&r"
+				""
+				"&9An instrument that embodies pride and tradition.&r"
+			]
+			hide_dependent_lines: true
+			id: "1F79DD1D0A044B6C"
+			rewards: [{
+				id: "662930A566D23FDF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Read my Story...!"
+			tasks: [{
+				id: "7458BE64626E16CE"
+				item: {
+					Count: 1
+					id: "immersive_melodies:bagpipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b&lBagpipe&r"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["235982E6AA55CFFD"]
+			description: [
+				"&7An ancient wind instrument, originating from distant lands.&r"
+				""
+				"&6Its deep and resonant sound can summon the forces of nature.&r"
+				""
+				"&eThose who master its play can feel the energy of the earth itself.&r"
+				""
+				"&9A sacred instrument, used in the most important ceremonies.&r"
+			]
+			hide_dependent_lines: true
+			id: "3F56A1C76FAD3E4E"
+			rewards: [{
+				id: "7CE74820ACDF745E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Read my Story...!"
+			tasks: [{
+				id: "641EC1A41B27B467"
+				item: {
+					Count: 1
+					id: "immersive_melodies:didgeridoo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b&lDidgeridoo&r"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["235982E6AA55CFFD"]
+			description: [
+				"&7A mysterious musical instrument found deep within caves.&r"
+				""
+				"&6When played, it produces a melody that enchants all nearby creatures.&r"
+				""
+				"&eIt is said that anyone who hears its music will be blessed with good fortune.&r"
+				""
+				"&9A rare and precious item, jealously guarded by ancient keepers.&r"
+			]
+			id: "2AE6FEE7D12F3808"
+			rewards: [{
+				id: "26738B57A70F4E84"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Read my Story...!"
+			tasks: [{
+				id: "1EF400FC8AABACDF"
+				item: {
+					Count: 1
+					id: "immersive_melodies:flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b&lFlute&r"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["235982E6AA55CFFD"]
+			description: [
+				"&7An ancient string instrument, symbol of art and culture.&r"
+				""
+				"&6Its delicate melodies can transport listeners to distant times.&r"
+				""
+				"&eUsed by bards and minstrels to tell stories and legends.&r"
+				""
+				"&9A symbol of tradition and musical mastery.&r"
+			]
+			hide_dependent_lines: true
+			id: "3F1B77349E97A9C2"
+			rewards: [{
+				id: "6E68D778B7376E57"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Read my Story...!"
+			tasks: [{
+				id: "01762DD16219019A"
+				item: {
+					Count: 1
+					id: "immersive_melodies:lute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b&lLute&r"
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["235982E6AA55CFFD"]
+			description: [
+				"&7An elegant keyboard instrument, capable of sweet and powerful sounds.&r"
+				""
+				"&6Each key tells a story, from the most delicate melody to the most majestic.&r"
+				""
+				"&eIt is said that its notes can touch the soul and inspire great emotions.&r"
+				""
+				"&9A faithful companion for musicians and composers.&r"
+			]
+			hide_dependent_lines: true
+			id: "2CCDE27DD1090D61"
+			rewards: [{
+				id: "13FA435DCD9F53B5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Read my Story...!"
+			tasks: [{
+				id: "5E16BE07EA236732"
+				item: {
+					Count: 1
+					id: "immersive_melodies:piano"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b&lPiano&r"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["235982E6AA55CFFD"]
+			description: [
+				"&7A small percussion instrument, simple yet essential.&r"
+				""
+				"&6Its clear and sharp sound can add a bright touch to any melody.&r"
+				""
+				"&ePerfect for giving rhythm and liveliness to musical compositions.&r"
+				""
+				"&9A modest yet greatly important instrument.&r"
+			]
+			hide_dependent_lines: true
+			id: "00CECD6271F72AFB"
+			rewards: [{
+				id: "7B21AF7D93637DE3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Read my Story...!"
+			tasks: [{
+				id: "3D59CC3D514E5611"
+				item: {
+					Count: 1
+					id: "immersive_melodies:triangle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b&lTriangle&r"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["235982E6AA55CFFD"]
+			description: [
+				"&7A brilliant brass instrument, used for signals and celebrations.&r"
+				""
+				"&6Its clear and powerful melody can incite courage and determination.&r"
+				""
+				"&ePerfect for announcing great events and lifting spirits.&r"
+				""
+				"&9An instrument symbolizing glory and triumph.&r"
+			]
+			hide_dependent_lines: true
+			id: "3EEC83ABD93AAECE"
+			rewards: [{
+				id: "7ED7176519C3C80B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Read my Story...!"
+			tasks: [{
+				id: "168AA99D23387DB2"
+				item: {
+					Count: 1
+					id: "immersive_melodies:trumpet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b&lTrumpet&r"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "2975FDFFBC4CF85F"
+			shape: "hexagon"
+			size: 4.0d
+			tasks: [
+				{
+					id: "78050FC5468E64C5"
+					item: {
+						Count: 1
+						id: "immersive_melodies:bagpipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7C1360EC91727C50"
+					item: {
+						Count: 1
+						id: "immersive_melodies:didgeridoo"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "34D00D1CB0F3E855"
+					item: {
+						Count: 1
+						id: "immersive_melodies:flute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2E6ABC9F7150A6CC"
+					item: {
+						Count: 1
+						id: "immersive_melodies:lute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "043ECE5D79B02F03"
+					item: {
+						Count: 1
+						id: "immersive_melodies:piano"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0F6CD764B41ABA7E"
+					item: {
+						Count: 1
+						id: "immersive_melodies:triangle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1E5A1558934C45A0"
+					item: {
+						Count: 1
+						id: "immersive_melodies:trumpet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "The Orchestra"
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["235982E6AA55CFFD"]
+			id: "65A83CC20EAF4270"
+			shape: "circle"
+			size: 3.0d
+			tasks: [{
+				id: "43804C8BB19E9FB6"
+				item: "minecraft:jukebox"
+				type: "item"
+			}]
+			title: "Craft A Jukebox"
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			id: "54662955D1BBEAAC"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "4B77FF96CC4B96C8"
+				item: "minecraft:music_disc_13"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "43A913800703ABA8"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7F711AB9DBA0122E"
+				item: "minecraft:music_disc_cat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "09ED76040F5D273B"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "2C69E30ECAC29A0F"
+				item: "minecraft:music_disc_blocks"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "099BA4B56826AB05"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "652FE03EF2F7D779"
+				item: "minecraft:music_disc_chirp"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			id: "20E5296192EAF2D5"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "6B7BBB48FE2013F1"
+				item: "minecraft:music_disc_far"
+				type: "item"
+			}]
+			x: -0.43571428571426196d
+			y: 9.517857142857139d
+		}
+		{
+			id: "346B26F64F2A18CE"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "361C9F0CD4AF5C95"
+				item: "minecraft:music_disc_mall"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			id: "2EB8C73EC95C39B1"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7BF1947DE844E627"
+				item: "minecraft:music_disc_mellohi"
+				type: "item"
+			}]
+			x: 0.6000000000000227d
+			y: 10.55357142857143d
+		}
+		{
+			id: "3EACE944D80D3B45"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "45F1E7A7FA63E37D"
+				item: "minecraft:music_disc_stal"
+				type: "item"
+			}]
+			x: 0.6000000000000227d
+			y: 8.482142857142861d
+		}
+		{
+			id: "3BB73D33CCAE4E3B"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "695FF38ACB614ED3"
+				item: "minecraft:music_disc_strad"
+				type: "item"
+			}]
+			x: 1.6357142857143074d
+			y: 7.446428571428569d
+		}
+		{
+			id: "69558B6E23D9F5D6"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "370B05293CD27A5D"
+				item: "minecraft:music_disc_ward"
+				type: "item"
+			}]
+			x: 1.6714285714285992d
+			y: 9.482142857142854d
+		}
+		{
+			id: "32B5F16B73C86DB9"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3BE363E059DC0FA8"
+				item: "minecraft:music_disc_11"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			id: "0801A2C8DFE09DC9"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "295639B10365B478"
+				item: "minecraft:music_disc_wait"
+				type: "item"
+			}]
+			x: 2.707142857142877d
+			y: 8.44642857142857d
+		}
+		{
+			id: "2ABD39081172A654"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "5BE0A2F7453C29C4"
+				item: "minecraft:music_disc_otherside"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "2669C479153A28A2"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "6451C167CB99B847"
+				item: "minecraft:music_disc_5"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			id: "5DB1E756C79A0DCF"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "41538517B284410E"
+				item: "minecraft:music_disc_pigstep"
+				type: "item"
+			}]
+			x: 2.7428571428571615d
+			y: 10.517857142857139d
+		}
+		{
+			id: "29B775F426C0A160"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "412D51A10C1DC4CA"
+				item: "minecraft:music_disc_relic"
+				type: "item"
+			}]
+			x: 1.6357142857143074d
+			y: 11.589285714285715d
+		}
+	]
+	tags: ["musician"]
+	title: " &e» &fMusician"
+}

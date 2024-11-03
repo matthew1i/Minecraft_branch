@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 7,
+  "currentVersion": "v16r2",
+  "modpackName": "Project: Boss RPG [FORGE]",
+  "modpackAuthor": "D4vide106, Infinity Wonderful",
+  "modpackReleaseType": "stable",
+  "updateCheckerId": "https://raw.githubusercontent.com/D4vide106/Modpack-Update-Checker/tree/main/BR-forge-1.20.1",
+  "advanced": {
+    "bccEnabled": false,
+    "expandButton": false,
+    "updateCheckerType": 2,
+    "retroWarning": false,
+    "modpackMods": []
+  }
+}

@@ -1,0 +1,21 @@
+**[Release update v16r2]**
+--
+### **FORGE IS NOW 47.3.5**
+Version v16r2 | [Curseforge](https://www.curseforge.com/minecraft/modpacks/project-boss-rpg/files/5123538) | [Modrinth](https://modrinth.com/project/project-boss-rpg) 
+
+**Changes:**
+--
+* Removed various mods.
+* Additions. 
+* Updated main menu.
+* Proximity VoiceChat system.
+* Added ServerPack v16r2 for Multiplayer.
+* Added Public Server (On [Discord](https://discord.gg/thfPJ7QAPJ)).
+
+**Fixes:**
+----------
+* Configured some mods.
+* Corrected various mod configs.
+* Reconfigured key controls. (see description)
+---
+***AS ALWAYS BE SURE TO BACK UP YOUR WORLD BEFORE UPDATING***.

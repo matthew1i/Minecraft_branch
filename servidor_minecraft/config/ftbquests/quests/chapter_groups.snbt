@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "65F7E8507903D0E8", title: " &l&o&6The Lore" }
+		{ id: "61BDC0D811A26EA6", title: " &l&o&6Dimensions" }
+		{ id: "3D400563BB150F5E", title: " &l&o&6Mission" }
+	]
+}

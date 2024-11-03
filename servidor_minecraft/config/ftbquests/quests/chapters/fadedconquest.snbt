@@ -1,0 +1,405 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fadedconquest"
+	group: "65F7E8507903D0E8"
+	icon: "faded_conquest_2:esoteric_idol"
+	id: "4B05C4013C630C0C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3FE9F0F8512B6D85"]
+			description: [
+				"The wicked and demented warlord and harbinger of war. He spoke to what lied beyond the stars, and he and his people payed for his greed. His final deed was guarding the key of war and gifting the other keys to his greatest subjects, while lying of their true use. "
+				""
+				"&lBoss Info -&r This boss has two phases and multiple attack types: including dash attacks, leaping attacks, and summoning minions to aid it. After first slaying him, he enters phase 2, which is similar to the first, although attacks are faster and more lethal. Upon death, he drops The Conquest Blade, an extremely powerful weapon. Only the most powerful and worthy of players willing to slay The Faded King can obtain it."
+			]
+			icon: "faded_conquest_2:mysterious_crown"
+			id: "762E2439CA572DE4"
+			rewards: [{
+				id: "252624F73B33C71A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "Lore -"
+			tasks: [{
+				entity: "faded_conquest_2:faded_king"
+				id: "77E97AB2116338D4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&nDyrolian, The Faded King"
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2CF496C7C36B84CB"
+				"762E2439CA572DE4"
+				"2E13828CE90AB1FE"
+				"45AF0C3B1C6F3BC4"
+			]
+			id: "406AF913CF62BEE4"
+			rewards: [
+				{
+					id: "3C32C2416E4E0B3A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E5C0D1953C1750C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5E35E3A073FB6F2C"
+					item: "faded_conquest_2:key_of_war"
+					type: "item"
+				}
+				{
+					id: "0072876222C34335"
+					item: "faded_conquest_2:key_of_conquest"
+					type: "item"
+				}
+				{
+					id: "60432340514999D1"
+					item: "faded_conquest_2:keyof_pestilence"
+					type: "item"
+				}
+				{
+					id: "0EDABD0DD438713D"
+					item: "faded_conquest_2:key_of_death"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["406AF913CF62BEE4"]
+			id: "7C2546A6C7B20FA4"
+			rewards: [{
+				id: "1304A0353F9A2C1E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "1EF65D4148E8F7DB"
+				item: "faded_conquest_2:abyssal_device"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25CA8F77F21AB978"]
+			description: [
+				"A mysterious creation left over from ancient times to guard the heavens from wicked beasts such as the harbingers. "
+				""
+				"&lBoss Info &r- It strikes lightning, shoots projectiles, and summons whirlwinds to pick up the player. When slain, it drops two weapons: The Eye of The Storm; a laser like device which will smite the target that requires electro charges to function, The Stormclasher; which when right clicked grants the player with electric speed."
+			]
+			icon: "faded_conquest_2:agspawner"
+			id: "45AF0C3B1C6F3BC4"
+			rewards: [{
+				id: "0533C8F4D60B54C3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "Lore -"
+			tasks: [{
+				entity: "faded_conquest_2:aero_guardian"
+				id: "5FFC663C5CAF403B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&nThe Aero Guardian"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["762E2439CA572DE4"]
+			id: "6A31F9AD251E567F"
+			shape: "square"
+			tasks: [{
+				id: "239777BF2A97F53B"
+				item: {
+					Count: 1
+					id: "faded_conquest_2:war_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["45AF0C3B1C6F3BC4"]
+			id: "26A59EA1A36B4E50"
+			shape: "square"
+			tasks: [{
+				id: "43FD31B701CB2305"
+				item: {
+					Count: 1
+					id: "faded_conquest_2:eye_of_the_storm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45AF0C3B1C6F3BC4"]
+			id: "552653399204F8A4"
+			shape: "square"
+			tasks: [{
+				id: "71F4FDA07D7BFDB4"
+				item: {
+					Count: 1
+					id: "faded_conquest_2:stormclasher_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45AF0C3B1C6F3BC4"]
+			id: "3E6A00BD2CCE868D"
+			shape: "square"
+			tasks: [{
+				id: "1E4DA402488D2E53"
+				item: "faded_conquest_2:storm_charge"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["236DEF8885F3E4DA"]
+			description: [
+				"The Terrible Ten Were Dyrolian's greatest knights. He entrusted The Key of Conquest to them. Whilst much weaker each on their own, these small knights fight as a formidable team, led by the Harbinger of Conquest. "
+				""
+				"&lBoss Info - &rYou must fight them as a group, and when defeated in this form they separate into their individual selves; who can be slain and captured to use in battle as a personal army."
+			]
+			icon: "faded_conquest_2:terrible_tensummon"
+			id: "2E13828CE90AB1FE"
+			rewards: [{
+				id: "2E0031EB989ADA45"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Lore -"
+			tasks: [{
+				entity: "faded_conquest_2:terrible_ten"
+				id: "2243F1D75329C662"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&nThe Terrible Ten"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4535F393A1D51B6D"
+				"1BF28A2AB2BBC7D4"
+			]
+			description: [
+				"A mysterious, powerful Lich, and the harbinger of death. "
+				""
+				"&lBoss Info - &rIt resides in a large tower guarded via skeleton spawner, it can conjure undead soldiers to aid it in combat. it is summoned by trying to steal the Ominous Skull."
+			]
+			icon: "faded_conquest_2:ominous_skull"
+			id: "6F4BD47FA64F623A"
+			rewards: [{
+				id: "3ABF82C8FA5F38C5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Lore -"
+			tasks: [{
+				entity: "faded_conquest_2:doomharbor_lich"
+				id: "3F4ED83C08CA6CD3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&nDoomharbour Lich"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25AD30E0BEADF681"]
+			description: [
+				"The plaugebringer was once the greatest alchemist in the overworld, due to this, it was gifted The Key of Pestilence. Although this led it down a path of madness as it discovered the true use of the keys. The eventually key transformed it into the wicked harbinger of pestilence. "
+				""
+				"&lBoss Info - &rIt summons Toxic Crows as minions, deals poison to opposing players, and may become invisible with dash attacks. It's second phase consists of it"
+			]
+			icon: "faded_conquest_2:toxic_lantern"
+			id: "2CF496C7C36B84CB"
+			rewards: [{
+				id: "6A94B613E1C99C25"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Lore -"
+			tasks: [{
+				entity: "faded_conquest_2:the_plauge_bringer"
+				id: "2C1C9F5D7B2FE721"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&nThe Plaugebringer"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"The plaugebringer was once the greatest alchemist in the overworld, due to this, it was gifted The Key of Pestilence. Although this led it down a path of madness as it discovered the true use of the keys. The eventually key transformed it into the wicked harbinger of pestilence. "
+				""
+				"&lBoss Info - &rIt summons Toxic Crows as minions, deals poison to opposing players, and may become invisible with dash attacks. It's second phase consists of it"
+			]
+			icon: "faded_conquest_2:toxic_lantern"
+			id: "58E8E84C5F39C3AA"
+			optional: true
+			rewards: [{
+				id: "096CEF11E6B49287"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Lore -"
+			tasks: [{
+				entity: "faded_conquest_2:the_plauge_bringer"
+				id: "2640FD49BC1CC167"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&nRadiance Guardian &lWIP"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"he Vessel of Calamity was once a powerful Ancient Builder, although, when a force from beyond the Cosmos sent a curse to The Overworld, The kingdom brought fourth the strongest and purest of their people to act as a vessel for the curse. It was bound behind four keys created by the curse itself, each in possession of The Four Harbingers. Although strong, the vessel was still too weak, and the curse has overtaken it; barley able to keep it sealed within. "
+				""
+				"&lBoss Info - &rNote: the attacks for this boss are extremely WIP.  "
+			]
+			icon: "faded_conquest_2:cageofcalamity"
+			id: "128A01358898EF6A"
+			optional: true
+			rewards: [{
+				id: "1F7D3E9474327E12"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Lore -"
+			tasks: [{
+				entity: "faded_conquest_2:calamitycagebreak"
+				id: "46DA1C0A7D64A990"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&nVessel Of Calamity &lWIP"
+			x: 11.714285714285715d
+			y: 0.017857142857145902d
+		}
+		{
+			id: "25CA8F77F21AB978"
+			tasks: [{
+				id: "155814A63A493978"
+				structure: "faded_conquest_2:aero_guardian_temple"
+				type: "structure"
+			}]
+			title: "Aero Guardian Temple"
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			id: "3FE9F0F8512B6D85"
+			rewards: [{
+				id: "779AC6A112BA849A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C31B95C2C0ECA9D"
+				structure: "faded_conquest_2:fc_battleroom"
+				type: "structure"
+			}]
+			title: "Faded King Battleroom"
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			id: "236DEF8885F3E4DA"
+			tasks: [{
+				id: "0E8C8CA887CC83C1"
+				structure: "faded_conquest_2:knightbattleground"
+				type: "structure"
+			}]
+			title: "Knight Battleground"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "25AD30E0BEADF681"
+			tasks: [{
+				id: "074EDAF97971087D"
+				structure: "faded_conquest_2:abandoned_lab"
+				type: "structure"
+			}]
+			title: "Abandoned Laboratory"
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			id: "4535F393A1D51B6D"
+			tasks: [{
+				id: "22ED1554715977CD"
+				structure: "faded_conquest_2:lich_tower"
+				type: "structure"
+			}]
+			title: "Lich Tower"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			icon: "artifacts:mimic_spawn_egg"
+			id: "1BF28A2AB2BBC7D4"
+			tasks: [{
+				entity: "faded_conquest_2:mimic"
+				id: "5B4571E63026E47F"
+				type: "kill"
+				value: 3L
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+	]
+	title: " &e» &fFaded Conquest"
+}
